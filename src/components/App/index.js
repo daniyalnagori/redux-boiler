@@ -261,7 +261,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1 className="mainHead">Arbitrage Trading System</h1>
+        {/* <h1 className="mainHead">Arbitrage Trading System</h1> */}
         {/* <div className="exchangeBtnP">
           <Button bsStyle="primary" onClick={() => this.binance()}>Bitcoin Binance</Button>
           <Button bsStyle="primary" onClick={() => this.bittrex()}>Bitcoin Bittrex</Button>
@@ -272,7 +272,7 @@ class App extends Component {
         <h3>BTC Binance: {this.state.BTCLastPriceBinance} </h3>
         <h3>BTC Bittrex: {this.state.BTCLastPriceBittrex} </h3>
         <h3>BTC CryptoPia: {this.state.BTCLastPriceCryptoPia} </h3> */}
-        <h3 className="subHead">BitCoin Exchanges Prices</h3>
+        {/* <h3 className="subHead">BitCoin Exchanges Prices</h3>
         <Table striped bordered condensed hover className="table">
           <thead>
             <tr>
@@ -302,7 +302,7 @@ class App extends Component {
               <td><Button bsStyle="primary" onClick={() => this.cryptopia()}>Bitcoin CryptoPia</Button></td>
             </tr>
           </tbody>
-        </Table>;
+        </Table>; */}
 
 
         {/* <div className="btcDataPeriod">
@@ -311,7 +311,7 @@ class App extends Component {
           <Button bsStyle="success" >1 Month</Button>
         </div> */}
       
-        <div id="chart"></div>
+        {/* <div id="chart"></div> */}
       </div>);
   }
 
